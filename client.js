@@ -2061,12 +2061,11 @@ function mountKbx(hostEl, env) {
       m.appendChild(mk);
       layer.appendChild(m);
       try {
-        const lh = parseFloat(style.lineHeight) || 22;
         const fs = parseFloat(style.fontSize) || 14;
         const ch = fs * 1.18;
         const r = cq.getBoundingClientRect();
         const o = origin();
-        return { x: mk.offsetLeft - cq.scrollLeft + r.left - o.left, y: mk.offsetTop - cq.scrollTop + r.top - o.top + (lh - ch) / 2, h: ch };
+        return { x: mk.offsetLeft - cq.scrollLeft + r.left - o.left, y: mk.offsetTop + mk.offsetHeight / 2 - ch / 2 - cq.scrollTop + r.top - o.top, h: ch };
       } finally {
         m.remove();
       }
