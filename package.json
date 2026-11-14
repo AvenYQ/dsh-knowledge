@@ -1,7 +1,7 @@
 {
-  "name": "@local/dsh-knowledge",
-  "version": "0.3.2",
-  "private": true,
+  "name": "dsh-aven-knowledge",
+  "version": "0.3.3",
+  "private": false,
   "type": "module",
   "description": "知识库 — 把本地笔记库、项目文件夹和收藏建成索引；边打字边出原文，也能让 AI 读完资料带出处回答；文件夹改动自动入库",
   "exports": {
@@ -29,6 +29,10 @@
         "@deepseek-ai/dsh-client-ui-sidebar"
       ]
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvenYQ/dsh-knowledge.git"
   },
   "license": "MIT",
   "keywords": [
