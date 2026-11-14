@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Knowledge",
+    "description": "Index local Obsidian vaults and project folders, then ask from a sidebar entry and get answers with file and line anchors."
+  },
+  "panel": "Knowledge"
+}

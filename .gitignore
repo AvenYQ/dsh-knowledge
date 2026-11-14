@@ -1,0 +1,6 @@
+# 备份与本地素材，不进仓库
+*.bak-*
+backup/
+prototype/
+node_modules/
+.DS_Store
